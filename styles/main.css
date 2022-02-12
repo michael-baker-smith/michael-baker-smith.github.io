@@ -1,6 +1,6 @@
 
 .menu {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -9,11 +9,13 @@
  }
 .nav-links {
   display: contents;
+  align-items: center;
   gap: 1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: aliceblue;
   font-size: 25px;
   list-style: none;
+
 }
 .nav-links li:hover {
   background-color: #4c9e9e;
@@ -22,16 +24,27 @@
  }
 .nav-links li {
   padding: 5px 14px;
+  display: inline;
+  margin-left: -200px;
  }
+.nav-links a {
+  text-decoration: none;
+  text-align: center;
+}
+.nav-menu {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+.logo{
+  float: left;
+  margin-top: -15px;
+  
+}
 .links{
   color: #fff;
-}
-.logo {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  width: 10%; 
-  height: 20%; 
+
 }
 
 body, html {
