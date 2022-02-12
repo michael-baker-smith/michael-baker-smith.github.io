@@ -26,12 +26,12 @@
 .links{
   color: #fff;
 }
-.navbar-brand {
-  position:fixed;
-  top: 0%;
-  left: 5%;
-  height:25%;
-  width: 25%;
+.logo {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 10%; 
+  height: 20%; 
 }
 
 body, html {
@@ -43,7 +43,6 @@ body, html {
   background-color: rgba(205, 235, 232, 0.048);
   background-size: cover;
   background-repeat:no-repeat;
-  background-position:center;
 }
 .wrapper {
   display: flex;
@@ -51,7 +50,37 @@ body, html {
   margin: 0;
   padding: 0;
 }
-
+.posts {
+  max-width: 400px;
+  box-sizing: border-box;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(251, 244, 244);
+  margin: 1.5vw;
+}
+#css-positioning{
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+.dates{
+  display: block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.post-title {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
 .h1 {
   font-family: "Lucida Console", "Courier New", monospace;
   position: relative;
@@ -67,6 +96,10 @@ p {
   color: rgb(128, 20, 95);
   text-align: left;
 }
+.points {
+  color: rgb(128, 20, 95);
+  text-align: left;
+}
 .content-position {
   padding: 50px;
   background-color: rgb(251, 244, 244);
@@ -75,5 +108,4 @@ p {
   width: 40vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 25px;
-
 }
