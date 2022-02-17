@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../blog/styles/main.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript & DOM</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        
+        <div class="nav-menu">
+          <div class="logo"><h1>Michael's Blog</h1></div>
+          <ul class="nav-links">
+            
+            <li><a class="links" href="../index.html">Home</a></li>
+            <li><a class="links" href="../blog/blog.html">Blog</a></li>
+          </ul>
+        </div>
+        
+      </nav>
+    </header>
+      <main>
+        <div id="main-stuff" class="main-stuff">
+          <div class="wrapper">
+            
+            <div class="content-position">
+              <h1 class="h1">Javascript and the DOM</h1>
+              <h3>Difference between HTML and CSS</h3>
+              <p>To describe the differences between these two it is best to start with an analogy. Imagine that HTML is the blueprint of a car with the standard, four doors, seats, etc. The CSS is the style or presentation that the car will take on, like the colour and interior design. </p>
+              <div class="img-example">
+                <img id="css-positioning" src="../blog/images/html-css.jpg" width="600">
+              </div>
+              <p>A web browser would be the car manufacturer company, putting everything together in accordance with these schematics. The DOM in this scenario would be one of the workers in the company or more likely an auto shop. It works on the car after it’s gone through the manufacturer and can fix mistakes during that occured during production or change the external/internal interior.</p>
+              <h3>Control Flow and Loops</h3>
+              <p>It is basically the order to which the computer executes statement within the script of code. Code is typically run from first line to the last line until it hits structures that change its flow, like loops and conditionals.
+                Control flow is like a bakery’s plan to bake a whole bunch of different muffins, some things can be taken out of order, but you wouldn’t start backing with out putting in the flour or start baking if the oven is already full. 
+                </p>
+                
+              
+              <p>This is where loops can pop in. It scripts a computer to do a repetitive task over and over until a criterion is met. Going back to our baker, he must mostly do the same process of steps repetitively for different muffins unless certain things happen. He might run out of eggs or milk. Then he’s kinda screwed. Below is an example of muffins in a for loop code</p>
+              <div class="img-example">
+                <img id="css-positioning" src="../blog/images/muffin.PNG" width="600">
+              </div>
+              <h3>The DOM</h3>
+              <p>The DOM is not a programming language like HTML or CSS, it’s a web API used to build websites. It was designed to be independent of different kinds of programming languages. DOM is how to represent a structure of a document. For an HTML document here's how you could visualize it.</p>
+              <div class="img-example">
+                <img id="css-positioning" src="../blog/images/DOM-image.png" width="600">
+              </div>
+
+              <p>But realistically (in code) it would look like this</p>
+              <div class="img-example">
+                <img id="css-positioning" src="../blog/images/HTMLCapture.PNG" width="600">
+              </div>
+              <p>One of the ways you can interact with the DOM is through google chrome development tools. Control+Shift+J to access it and go to the console. Input documents.<em>space</em> and it brings up a list of what is inside document object.</p>
+              <div class="img-example">
+                <img id="css-positioning" src="../blog/images/DOM-Interface.PNG" width="600">
+              </div>
+              <p>Through source tag or the console, allows for input commands to manipulate the programming.</p>
+
+
+              <h3>Differences between accessing data from array or objects</h3>
+              <p>Objects are one of the most powerful data types within Javascript and are used in almost everything. They basically store data in key value pairs like below. Which is then assigned the value to a variable.In this case the object name.</p>
+              <div class="img-example">
+                <img id="css-positioning" src="../blog/images/object.PNG" width="600">
+              </div>
+              <p>Arrays are also objects in Javascript. The key difference between the two is how the data is stored. It is stored in an ordered collection and can be accessed through a numerical index. They can be modified at any index point. The index starts at zero, which means the first item would be numbered zero/0. The last item would then be stored n-1th index. An array object looks like this</p>
+              <div class="img-example">
+                <img id="css-positioning" src="../blog/images/array.PNG" width="600">
+              </div>
+              <h3>Functions</h3>
+              <p>Functions are a fundamental building block for Javascript and are, just like Arrays, Objects. It is a set of statements that calculates a value or performs a task. For it to qualify, as a function, there needs to be an input and output and a “relationship” between them. Looking at the image below, we have two functions. One named sayHello, the other sayBye. In there brackets we define what those to functions do. The sayHello(), sayBye() then call or excute those functions.</p>
+              <div class="img-example">
+                <img id="css-positioning" src="../blog/images/function.PNG" width="600">
+              </div>
+              <p>They are important because it allows compact code that is relatively simple to understand and eliminates the need to pollute your code. They are fundamental building blocks for reusable code libraries and are considered first-class. Meaning they can do pretty much anything. They can be assigned in other functions or variables, passed in arguments to other functions, and be returned in other functions.</p>
+            </div>
+          </div>
+      
+           
+        </div>
+        
+      </main>
+    
+    
+  </body>
+</html>
