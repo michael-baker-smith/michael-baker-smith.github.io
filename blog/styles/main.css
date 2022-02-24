@@ -59,6 +59,7 @@ body, html {
 }
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -69,6 +70,7 @@ body, html {
   margin: 20px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   padding: 20px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: rgb(251, 244, 244);
@@ -107,7 +109,7 @@ body, html {
   left: 5em;
 }
 p {
-  color: rgb(49, 145, 235);
+  color: #4c9e9e;;
   text-align: left;
 }
 .points {
